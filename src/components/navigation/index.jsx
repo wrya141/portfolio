@@ -2,7 +2,7 @@
 import { BtnList } from "@/app/data";
 import React from "react";
 import NavButton from "./NavButton";
-import useScreenSize from "../hooks/useScreenSize";
+import UseScreenSize from "../hooks/UseScreenSize";
 import ResponsiveComponent from "../ResponsiveComponent";
 import { motion } from "framer-motion";
 
@@ -18,7 +18,7 @@ const container = {
 
 const Navigation = () => {
   const angleIncrement = 360 / BtnList.length;
-  const size = useScreenSize();
+  const size = UseScreenSize();
   const isLarge = size >= 1024;
   const isMedium = size >= 768;
 
