@@ -55,7 +55,7 @@ const Aboutdet = () => {
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
           <img
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=wrya141&theme=transparent&title_color=FEFE58&text_color=FFFFFF&icon_color=FEFE58&text_bold=false&hide_border=true"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=wrya141&cache_seconds=86400&theme=transparent&title_color=FEFE58&text_color=FFFFFF&icon_color=FEFE58&text_bold=false&hide_border=true"
             alt="wrya141"
             loading="lazy"
             className="w-full h-auto"
