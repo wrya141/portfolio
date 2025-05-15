@@ -25,7 +25,14 @@ demoLink:"websiteLint";
 
 */
 
-export const projectsData = [];
+export const projectsData = [
+  {
+    id: 1,
+    name: "simple ecommence site",
+    date: "2025-5-15",
+    demoLink: "https://github.com/wrya141/mern_simple_ecommence",
+  },
+];
 
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
