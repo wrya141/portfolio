@@ -51,24 +51,7 @@ const Aboutdet = () => {
             </sub>
           </p>
         </Itemslayout>
-        <Itemslayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-        >
-          <img
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=wrya141&cache_seconds=86400&theme=transparent&title_color=FEFE58&text_color=FFFFFF&icon_color=FEFE58&text_bold=false&hide_border=true"
-            alt="wrya141"
-            loading="lazy"
-            className="w-full h-auto"
-          />
-        </Itemslayout>
-        <Itemslayout className={"col-span-full  md:col-span-8 !p-0"}>
-          <img
-            src="https://github-readme-stats.vercel.app/api?username=wrya141&theme=transparent&title_color=FEFE58&text_color=FFFFFF&icon_color=FEFE58&text_bold=false&hide_border=true"
-            alt="wrya141"
-            loading="lazy"
-            className="w-full h-auto"
-          />
-        </Itemslayout>
+
         <Itemslayout className={"col-span-full"}>
           <img
             src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,c,cpp,cs,bootstrap,git,github,jquery,linux,mongodb,mysql,postman,prisma,tailwind,ts,vscode,python&theme=light"
@@ -83,15 +66,6 @@ const Aboutdet = () => {
             src="https://github-readme-streak-stats.herokuapp.com?user=wrya141&theme=dark&hide_border=true&background=EB54541D&currStreakLabel=FEFE58&ring=FEFE58"
             alt="GitHub Streak"
             loading="lazy"
-          />
-        </Itemslayout>
-
-        <Itemslayout className={"col-span-full  md:col-span-6 p-0"}>
-          <img
-            src="https://github-readme-stats.vercel.app/api/pin/?username=wrya141&repo=currency-exchange-c-"
-            alt="wrya141"
-            loading="lazy"
-            className="w-full h-auto"
           />
         </Itemslayout>
       </div>
