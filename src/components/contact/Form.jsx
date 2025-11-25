@@ -59,6 +59,10 @@ export default function Form() {
       );
   };
   const onSubmit = (data) => {
+    console.log("SERVICE_ID:", process.env.NEXT_PUBLIC_SERVICE_ID);
+    console.log("TEMPLATE_ID:", process.env.NEXT_PUBLIC_TEMPLATE_ID);
+    console.log("PUBLIC_KEY:", process.env.NEXT_PUBLIC_PUBLIC_KEY);
+
     const tem = {
       to_name: "wrya",
       from_name: data.name,
